@@ -41,7 +41,7 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
+                <span>Besoin d'aide ?</span>
                 <span className="header__top__help">
                   <i class="ri-phone-fill"></i> +212 6 03 84 72 83
                 </span>
@@ -51,11 +51,11 @@ const Header = () => {
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
+                  <i class="ri-login-circle-line"></i> Connexion
                 </Link>
 
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
+                  <i class="ri-user-line"></i> Inscrit
                 </Link>
               </div>
             </Col>
@@ -112,7 +112,7 @@ const Header = () => {
             >
               <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i class="ri-phone-line"></i> Demander un appel
                 </Link>
               </button>
             </Col>

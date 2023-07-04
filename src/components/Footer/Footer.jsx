@@ -7,17 +7,17 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "À propos",
   },
 
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Politique de confidentialité",
   },
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Liste de voitures",
   },
   {
     path: "/blogs",
@@ -49,16 +49,22 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              C'est comme Amazon, 
+              mais au lieu d'acheter des trucs inutiles 
+              que tu n'as pas besoin, tu peux louer des voitures 
+              inutiles que tu n'as pas besoin non plus ! En gros, le site 
+              te permettra de trouver la voiture qui convient le mieux à tes 
+              besoins (même si en réalité toutes les voitures se ressemblent) 
+              et de réserver cette voiture pour une durée déterminée moyennant
+              finance (et oui ça coûte toujours plus cher que prévu). Mais bon,
+              au moins tu auras l'impression d'avoir accompli quelque chose 
+              dans ta vie en ayant réservé cette voiture sur ce site.
             </p>
           </Col>
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Liens rapides</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,20 +77,20 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
+              <h5 className="footer__link-title mb-4">Siège social</h5>
               <p className="office__info">123 Boudir, Oujda, Maroc</p>
               <p className="office__info">Phone: +212 6 03 84 72 83</p>
 
               <p className="office__info">Email: khalil.jaouani29@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Temps de bureau: 10am - 7pm</p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <h5 className="footer__link-title">Nouvelles offre</h5>
+              <p className="section__description">Abonnez-vous pour des nouvelles offre</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
